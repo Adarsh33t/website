@@ -1,0 +1,297 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+#nav-bar
+{
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+.navbar-brand img{
+    height: 30px;
+    padding-left: 30px ;
+}
+
+.navbar-nav li
+{
+    padding: 0 10px;
+}
+.navbar-nav li a{
+    float: right;
+    text-align: left;
+}
+#nav-bar ul li a:hover 
+{
+    color: #007bff;
+}
+.navbar{
+    background: chocolate;
+}
+.navbar-toggler
+{
+    border: none;
+}
+.nav-link
+{
+    color: black;
+    font-weight: 600;
+    font-size: 16px;
+}
+#slider
+{
+    width: 100%;
+   
+}
+.carousel-caption
+{
+    top:35%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+.carousel-caption h5
+{
+    color: whitesmoke;
+    font-size: 46px;
+}
+#about
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    width: 100%;
+    color: tomato;
+}
+#about .btn
+{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: cornsilk;
+   
+}
+ .col-md-6 .btn .btn
+
+    {
+        font-size:450px;
+        margin: 60px auto;
+        padding: 15px;
+       
+        height: 80px;
+        width: 80px;
+        border: 2px solid #fff;
+        border-radius: 50%;
+     }
+     .col-md-6 .btn .btn  li a:hover
+
+     {
+        color: #007bff;
+     }
+
+.about-content
+{
+    padding-top: 20px;
+    font-weight: 700px;
+}
+
+.skill-bar p
+{
+    margin-bottom: 6px;
+    font-weight: 600;
+}
+.progress-bar
+{
+    border-radius: 16px;
+}
+.progress
+{
+    border-radius: 16px;
+    margin-bottom: 20px;
+}
+#about
+
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://images.unsplash.com/photo-1462536943532-57a629f6cc60?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=5322&q=160);
+    background-size: cover;
+    background-position: top;
+    color:#efefef ;
+    background-attachment: fixed;
+    padding-top: 100px;
+    padding-bottom: 340px;
+    background-size: 100% 100%;
+}
+
+#services
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://th.bing.com/th/id/OIP.nV7q0ZyGU9cm0TP15VbUnQHaEK?w=322&h=500px&c=7&o=5&dpr=1.25&pid=1.7);
+    background-size: cover;
+    background-position: center;
+    position: sticky;
+    color:#efefef ;
+    background-attachment: fixed;
+    padding-top: 60px;
+    padding-bottom: 250px;
+    width: 100%;
+   
+    background-size: 100% 100%;
+    height: 100;
+}
+#team
+{
+    background-image: linear-gradient(rgba(0,0,0,0.8),rgba(0,0,0,0.8)),url(https://images.unsplash.com/photo-1539302730708-a9ccbdd8332b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60);
+    background-size: cover;
+    background-position: center;
+    color:#efefef ;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+    padding-top: 340px;
+    width: 100%;
+    padding-bottom: 850px;
+    
+}
+
+#services h1
+{
+    text-align: center;
+    color: blanchedalmond;
+    padding-bottom: 10px;
+}
+#services h1::after
+{
+    content:'';
+    background: white;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.services
+{
+    margin-top: 40px;
+
+}
+.icon 
+{
+   font-size: 40px;
+   margin: 15px auto;
+   padding: 10px;
+   height: 80px;
+   width: 80px;
+   border: 2px solid #fff;
+   border-radius: 50%;
+}
+#services p
+{
+    font-size: 14px;
+    margin-top: 20px;
+    color: #ccc;
+}
+.services .col-md-3:hover
+{
+    background-color: #007bff;
+    cursor: pointer;
+    transition: 0.7s;
+}
+#team
+{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    color:blanchedalmond;
+}
+ #team h4
+{
+    text-align: center;
+
+    color: blanchedalmond;
+    padding-bottom: 10px;
+}
+#team h4::after
+{
+    content: '';
+    background: #fff;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+.profile-pic 
+{
+    margin-top: 25px;
+}
+
+.profile-pic  .img-box 
+{
+opacity: 1;
+display: block;
+position: relative;
+}
+.profile-pic .img-box img 
+{
+    filter: grayscale(1);
+}
+
+.profile-pic .img-box img:hover{
+    filter: grayscale(0);
+    cursor: pointer;
+}
+.profile-pic h2{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: brown;
+
+}
+.profile-pic h3
+{
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 15px;
+    color: darkgoldenrod;
+    
+    
+}
+.profile-pic h4
+{
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 15px;
+    
+    
+}
+#team .fa
+{
+height: 25px;
+width: 25px;
+color:#007bff ;
+background: #fff;
+padding: 4px;
+border-radius: 50%;
+}
+
+.img-box ul
+{
+    padding: 15px;
+    position: absolute;
+    z-index: 2;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    opacity: 0;
+}
+.img-box ul li
+{
+    padding: 5px;
+    display: inline-block;
+
+}
+.img-box:hover ul
+{
+    opacity: 1;
+}
+.img-box ul, .img-box ul li
+{
+    transition: 0.5s;
+}
