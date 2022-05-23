@@ -1,0 +1,18 @@
+<!doctype html>
+<html>
+<head>
+  <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.2/angular.min.js"></script>
+</head>
+
+<h1>Simple Form</h1>
+<form# simpleForm = "ngForm" (ngSubmit) = "getValues(simpleForm.value)">
+  <input type ="text" ngModelname = "user" placeholder = "Enter Name">
+  <br><br>
+  <input type ="text" ngModelname = "age" placeholder = "Enter age">
+  <br><br>
+  <input type ="text" ngModelname = "city" placeholder = "Enter city">
+  <br><br>
+  <button>Get user value</button>
+</form>
+</body>
+</html>
