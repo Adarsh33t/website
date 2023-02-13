@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Travelo</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <link rel="stylesheet" href="booking.css" type="text/css">
+  
+<body>
+  
+
+    <header>
+
+        <a href="images/logo.png" class="logo"><i class="fas "></i>Travelo</a>
+        
+   
+    
+        <nav class="navbar links">
+            <div class="navc">
+            <a href="index.html">Home</a>
+            
+            
+            <a href="gallery.html">Gallery</a>
+            <a href="about.html">About</a>
+            <a href="review.html">Reviews</a>
+            <a href="#book">Book Now</a>
+            </div>
+            
+        </nav>
+    
+    
+    </header>
+
+    <!-- images -->
+    <div class="slideshow-container">
+
+        <div class="mySlides fade">
+            <div class="numbertext">1 / 3</div>
+            <img src="images/Lonavala.jpg" style="width:100%">
+            <div class="text">Lonavala</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">2 / 3</div>
+            <img src="images/Mumbai-1.jpg" style="width:100%">
+            <div class="text">Mumbai</div>
+        </div>
+
+        <div class="mySlides fade">
+            <div class="numbertext">3 / 3</div>
+            <img src="images/shaniwar-wada.jpg" style="width:100%">
+            <div class="text">Pune</div>
+        </div>
+
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+
+    </div>
+    <br>
+
+    <div style="text-align:center">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+    </div>
+   
+    <div class="offer">
+        <div class="circle">
+            Offer
+            <img src="images/Mumbai-1.jpg" style="width:100%">
+            <a href="book.html" target="_blank">Book Now</a>
+        </div>
+        <div class="circle">
+            Offer
+            <img src="images/valley-of-flowers.jpg" style="width:100%">
+            <a href="#bookform" target="_blank">Book Now</a>
+        </div>
+        <div class="circle">
+            Offer
+            <img src="images/taj-mahal.jpg" style="width:100%">
+            <a href="#bookform" target="_blank">Book Now</a>
+        </div>
+    </div>
+   
+    <section class="section-search">
+        <div class="container search-box">
+            <div class="wrapper">
+                <h3>Destination</h3>
+                <div class="custom-select"> <select>
+                        <option value="england">England</option>
+                        <option value="france">France</option>
+                        <option value="italy">Italy</option>
+                        <option value="india">India</option>
+                        <option value="india">Spain</option>
+                        <option value="maldives">Maldives</option>
+                    </select> <span class="arrow"></span> </div>
+            </div>
+            <div class="wrapper">
+                <h3>Date</h3>
+                <div class="custom-date"> <input type="date" id="date"> <img src="images/calendar.d670ce86.svg" alt=""
+                        class="calender-icon"> </div>
+            </div>
+            <div class="wrapper">
+                <h3>Average Price</h3>
+                <div class="custom-select"> <select>
+                        <option value="$200">$200 - $500</option>
+                        <option value="$500">$500 - $1000</option>
+                        <option value="$1000">$1000 - $2000</option>
+                    </select> <span class="arrow"></span> </div>
+            </div> <button class="btn">Search</button>
+        </div>
+    </section>
+    <section>
+        <div class="bookform">
+            <div class="subform">
+                <h2>Booking Form</h2>
+                <table>
+                    <tr>
+                        <td>
+                            <p>Name : </p>
+                        </td>
+                        <td>
+                            <input type="text" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Mobile No : </p>
+                        </td>
+                        <td>
+                            <input type="number" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Email : </p>
+                        </td>
+                        <td>
+                            <input type="email" name="email" id="email" required>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Address : </p>
+                        </td>
+                        <td>
+                            <textarea name="address" id="" cols="30" rows="5" required></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <p>Comment : </p>
+                        </td>
+                        <td>
+                            <textarea name="comment" id="" cols="30" rows="5"></textarea>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <input type="submit" value="Book Now" aria-colspan="2">
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        </div>
+    </section>
+
+  
+
+    <footer>
+        <div class="footerr-content">
+            <h3>Tours</h3>
+            
+                <div class="social">
+                 <a href=""><i class="fab fa-facebook-f"></i></a>
+                 <a href=""><i class="fab fa-twitter"></i></a>
+                 <a href=""><i class="fab fa-instagram"></i></a>
+ 
+             </div>
+        </div>
+        <div class="footerr-bottom">
+            <p>copyright &copy;2021 Tours. designed by <span>ASVA</span></p>
+        </div>
+    </footer>
+
+   
+
+    <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+
+        function plusSlides(n) {
+            showSlides(slideIndex += n);
+        }
+
+        function currentSlide(n) {
+            showSlides(slideIndex = n);
+        }
+
+        function showSlides(n) {
+            var i;
+            var slides = document.getElementsByClassName("mySlides");
+            var dots = document.getElementsByClassName("dot");
+            if (n > slides.length) { slideIndex = 1 }
+            if (n < 1) { slideIndex = slides.length }
+            for (i = 0; i < slides.length; i++) {
+                slides[i].style.display = "none";
+            }
+            for (i = 0; i < dots.length; i++) {
+                dots[i].className = dots[i].className.replace(" active", "");
+            }
+            slides[slideIndex - 1].style.display = "block";
+            dots[slideIndex - 1].className += " active";
+        }
+
+    </script>
+</body>
+
+</html>
